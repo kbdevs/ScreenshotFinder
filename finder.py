@@ -18,6 +18,6 @@ def search_directory(directory):
                     progress_bar.update(1)
 
 # Example usage
-directory = input("Enter the directory to search: ")
+directory = input("Enter you minecraft directory (ex. C:/Users/kb/AppData/Roaming/.minecraft): ")
 search_directory(directory)
 print("All found screenshots have been copied to the 'Exported Screenshots' folder. :)")
